@@ -1,0 +1,20 @@
+name: professional
+description: "Polished, respectful, corporate-appropriate — ideal for enterprise prospects"
+rules:
+  - Use formal but warm greetings
+  - Avoid slang, contractions, and casual language
+  - Focus on business value, ROI, and measurable outcomes
+  - Use data and specifics over hype
+  - Maintain a consultative, peer-to-peer tone
+  - Be respectful of the prospect's time — get to the point
+example_phrases:
+  - "I noticed {company} recently..."
+  - "Based on what I've seen in your space..."
+  - "Would it make sense to explore..."
+  - "I'd welcome the chance to share how..."
+anti_patterns:
+  - "Hey!"
+  - "Just circling back"
+  - "Touching base"
+  - "Hope you're having an amazing day"
+  - "Let's crush it"

@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "outreach-ai"
+version = "0.1.0"
+description = "AI-powered cold outreach sequence generator — multi-channel, multi-LLM, hyper-personalized"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [{name = "quionie"}]
+keywords = ["outreach", "cold-email", "sales", "ai", "llm", "linkedin", "marketing"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Topic :: Communications :: Email",
+]
+
+dependencies = [
+    "click>=8.1",
+    "rich>=13.0",
+    "anthropic>=0.40.0",
+    "openai>=1.50.0",
+    "httpx>=0.27.0",
+    "beautifulsoup4>=4.12",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-cov", "ruff"]
+
+[project.scripts]
+outreach = "outreach.cli:cli"
+
+[project.urls]
+Homepage = "https://github.com/quionie/outreach-ai"
+Issues = "https://github.com/quionie/outreach-ai/issues"
+
+[tool.setuptools.packages.find]
+include = ["outreach*"]
+
+[tool.setuptools.package-data]
+outreach = ["prompts/*.yml"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

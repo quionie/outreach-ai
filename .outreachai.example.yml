@@ -1,0 +1,23 @@
+# outreach-ai configuration
+# Copy this file to .outreachai.yml and fill in your API keys.
+# Run `outreach init` to create this file interactively.
+
+default_provider: claude
+default_model: null  # Uses provider default if null
+
+providers:
+  claude:
+    api_key: ${ANTHROPIC_API_KEY}  # Supports env var interpolation
+  openai:
+    api_key: ${OPENAI_API_KEY}
+  ollama:
+    host: http://localhost:11434
+    model: llama3.1
+
+defaults:
+  channels: [email]
+  tone: professional
+  variants: 1
+  output_format: md
+
+custom_tones_dir: null  # Path to additional tone profiles

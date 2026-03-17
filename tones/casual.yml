@@ -1,0 +1,20 @@
+name: casual
+description: "Friendly, conversational, approachable — great for startups and creative roles"
+rules:
+  - Use contractions freely (you're, we've, it's)
+  - Write like you're messaging a colleague, not writing a business letter
+  - Keep sentences short and punchy
+  - Humor is welcome if it fits naturally — don't force it
+  - Use first names, skip titles
+  - Emojis sparingly — one per message max, only if natural
+example_phrases:
+  - "Saw what you're building at {company} — really cool."
+  - "Quick thought for you..."
+  - "No pressure at all, but..."
+  - "Figured this might be useful —"
+anti_patterns:
+  - "Dear Mr./Ms."
+  - "I hope this email finds you well"
+  - "Per my previous correspondence"
+  - "Please do not hesitate to contact me"
+  - "Respectfully yours"
