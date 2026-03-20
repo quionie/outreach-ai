@@ -42,14 +42,14 @@ Generate hyper-personalized cold outreach sequences across email, LinkedIn, and 
 ## Installation
 
 ```bash
-pip install outreach-ai
-```
-
-Or install from source for development:
-
-```bash
 git clone https://github.com/quionie/outreach-ai.git
 cd outreach-ai
+pip install -e .
+```
+
+For development (includes testing and linting tools):
+
+```bash
 pip install -e ".[dev]"
 ```
 
